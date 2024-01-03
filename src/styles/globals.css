@@ -25,3 +25,56 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+body input,
+body textarea {
+  color: black;
+}
+
+a {
+  color: #2d7bd4;
+}
+
+a:hover {
+  border-bottom: 1px solid;
+}
+
+p {
+  margin: 8px 0;
+}
+
+code {
+  color: #ffa500;
+}
+
+li {
+  padding: 4px;
+}
+
+.sticky
+{
+  position: sticky;
+  padding: 10px;
+  z-index: 1;
+  bottom: 0px;
+}
+.page-header, .page-footer {
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.wrapper {
+  min-height: 100%;
+
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -50px;
+}
+.footer,
+.push {
+  height: 50px;
+}
